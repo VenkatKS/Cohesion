@@ -50,7 +50,7 @@ public class SessionInfo
     public static void setupConnections()
     {
         int referenceName = 0;
-        ClientReferenceNodes currentNode = ClientReferenceGraph.getAllNodes().get(referenceName);
+        ClientReferenceGraph.getAllNodes().get(referenceName);
     }
 
     public static ClientReferenceNodes getCurrentNode()
