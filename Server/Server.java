@@ -2,9 +2,6 @@
  * Created by Venkat on 4/5/16.
  */
 
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.net.SocketException;
 import java.util.Scanner;
 
 public class Server
@@ -94,7 +91,7 @@ public class Server
                 CurrentNodeProperties.numNodes     = 3;
 
                 Node NodeOne    = new Node(1, "127.0.0.1", 9000);
-                Node NodeTwo    = new Node(2, "127.0.0.1", 9005);
+                //Node NodeTwo    = new Node(2, "127.0.0.1", 9005);
                 Node NodeThree  = new Node(3, "127.0.0.1", 9010);
 
                 Graph.newNode(NodeOne);
@@ -109,7 +106,7 @@ public class Server
                 CurrentNodeProperties.filePath     = "inventory.txt";
                 CurrentNodeProperties.numNodes     = 3;
 
-                Node NodeOne    = new Node(1, "127.0.0.1", 9000);
+                //Node NodeOne    = new Node(1, "127.0.0.1", 9000);
                 Node NodeTwo    = new Node(2, "127.0.0.1", 9005);
                 Node NodeThree  = new Node(3, "127.0.0.1", 9010);
 
@@ -128,7 +125,7 @@ public class Server
 
                 Node NodeOne    = new Node(1, "127.0.0.1", 9000);
                 Node NodeTwo    = new Node(2, "127.0.0.1", 9005);
-                Node NodeThree  = new Node(3, "127.0.0.1", 9010);
+                //Node NodeThree  = new Node(3, "127.0.0.1", 9010);
 
                 Graph.newNode(NodeOne);
                 Graph.newNode(NodeTwo);

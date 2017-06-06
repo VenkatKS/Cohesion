@@ -1,4 +1,3 @@
-import java.util.Comparator;
 
 /**
  * Created by Venkat on 4/5/16.
@@ -37,8 +36,6 @@ public class Node
     @Override
     public boolean equals(Object compareTo)
     {
-        Node compareNode = (Node) compareTo;
-
         if (((Node) compareTo).getNodeIP().equals(nodeIP) && ((Node) compareTo).getNodePort()==nodePort) return true;
 
         return false;

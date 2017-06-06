@@ -1,10 +1,3 @@
-import sun.security.x509.AVA;
-
-import java.io.BufferedReader;
-import java.io.DataOutputStream;
-import java.io.InputStreamReader;
-import java.net.Socket;
-
 /**
  * Created by Venkat on 6/3/17.
  */
@@ -176,8 +169,6 @@ public class Shell
                     helpString.append("Prints out how to use every command.");
                     return helpString.toString();
                 }
-
-
             }
     };
 

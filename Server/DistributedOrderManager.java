@@ -79,8 +79,6 @@ public class DistributedOrderManager implements Serializable
 
     public ArrayList<Order> getUserOrders(String userName)
     {
-        User newPerson = new User(userName);
-
         return AllUsers.get(userName);
     }
 

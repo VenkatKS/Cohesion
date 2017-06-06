@@ -35,8 +35,6 @@ public class ClientReferenceNodes
     @Override
     public boolean equals(Object compareTo)
     {
-        ClientReferenceNodes compareNode = (ClientReferenceNodes) compareTo;
-
         if (((ClientReferenceNodes) compareTo).getNodeIP().equals(nodeIP) && ((ClientReferenceNodes) compareTo).getNodePort()==nodePort) return true;
 
         return false;
